@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-31T01:10:16 PST" name="Smoke Test Suite" finished-at="2025-01-31T01:11:02 PST" duration-ms="46653">
+    <groups>
+    </groups>
+    <test started-at="2025-01-31T01:10:16 PST" name="ProductPageTests" finished-at="2025-01-31T01:10:59 PST" duration-ms="43769">
+      <class name="Tfar.tests.ProductsPageTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:16 PST" name="launchApplication" finished-at="2025-01-31T01:10:26 PST" duration-ms="9562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LogoutTest()[pri:1, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:26 PST" name="LogoutTest" finished-at="2025-01-31T01:10:28 PST" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:28 PST" name="tearDown" finished-at="2025-01-31T01:10:37 PST" duration-ms="8930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:37 PST" name="launchApplication" finished-at="2025-01-31T01:10:41 PST" duration-ms="3903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductDisplay()[pri:2, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:41 PST" name="ProductDisplay" finished-at="2025-01-31T01:10:42 PST" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:42 PST" name="tearDown" finished-at="2025-01-31T01:10:47 PST" duration-ms="4640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:47 PST" name="launchApplication" finished-at="2025-01-31T01:10:52 PST" duration-ms="4942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addToCart()[pri:3, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:52 PST" name="addToCart" finished-at="2025-01-31T01:10:53 PST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.ProductsPageTests@77d67cf3]" started-at="2025-01-31T01:10:53 PST" name="tearDown" finished-at="2025-01-31T01:10:59 PST" duration-ms="5854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tfar.tests.ProductsPageTests -->
+    </test> <!-- ProductPageTests -->
+    <test started-at="2025-01-31T01:10:16 PST" name="CartPageTests" finished-at="2025-01-31T01:10:59 PST" duration-ms="43728">
+      <class name="Tfar.tests.CartPageTests">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:15 PST" name="setupSuite" finished-at="2025-01-31T01:10:16 PST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:16 PST" name="launchApplication" finished-at="2025-01-31T01:10:23 PST" duration-ms="7218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testJsonData(java.util.HashMap)[pri:1, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:23 PST" name="testJsonData" data-provider="jsonDataProvider" finished-at="2025-01-31T01:10:28 PST" duration-ms="4120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, product=Sauce Labs Backpack, user_name=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJsonData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:28 PST" name="tearDown" finished-at="2025-01-31T01:10:32 PST" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:32 PST" name="launchApplication" finished-at="2025-01-31T01:10:37 PST" duration-ms="5301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testJsonData(java.util.HashMap)[pri:1, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:37 PST" name="testJsonData" data-provider="jsonDataProvider" finished-at="2025-01-31T01:10:39 PST" duration-ms="1590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, product=Sauce Labs Bike Light, user_name=problem_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJsonData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:39 PST" name="tearDown" finished-at="2025-01-31T01:10:46 PST" duration-ms="7226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:46 PST" name="launchApplication" finished-at="2025-01-31T01:10:49 PST" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testJsonData(java.util.HashMap)[pri:1, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:49 PST" name="testJsonData" data-provider="jsonDataProvider" finished-at="2025-01-31T01:10:54 PST" duration-ms="4769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, product=Sauce Labs Bolt T-Shirt, user_name=visual_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJsonData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.CartPageTests@61a88b8c]" started-at="2025-01-31T01:10:54 PST" name="tearDown" finished-at="2025-01-31T01:10:59 PST" duration-ms="5375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tfar.tests.CartPageTests -->
+    </test> <!-- CartPageTests -->
+    <test started-at="2025-01-31T01:10:16 PST" name="LoginTests" finished-at="2025-01-31T01:11:02 PST" duration-ms="46647">
+      <class name="Tfar.tests.LoginPageTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:16 PST" name="launchApplication" finished-at="2025-01-31T01:10:26 PST" duration-ms="10009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginTest()[pri:1, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:26 PST" name="LoginTest" finished-at="2025-01-31T01:10:29 PST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:29 PST" name="tearDown" finished-at="2025-01-31T01:10:31 PST" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:31 PST" name="launchApplication" finished-at="2025-01-31T01:10:34 PST" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginTestInValidCredentials()[pri:2, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:34 PST" name="LoginTestInValidCredentials" finished-at="2025-01-31T01:10:37 PST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:37 PST" name="tearDown" finished-at="2025-01-31T01:10:55 PST" duration-ms="18231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:55 PST" name="launchApplication" finished-at="2025-01-31T01:10:58 PST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginTestLockedOutUser()[pri:3, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:58 PST" name="LoginTestLockedOutUser" finished-at="2025-01-31T01:10:59 PST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tfar.tests.LoginPageTests@5e4bd84a]" started-at="2025-01-31T01:10:59 PST" name="tearDown" finished-at="2025-01-31T01:11:02 PST" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tfar.tests.LoginPageTests -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- Smoke Test Suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" parallel="tests" >
+	<listeners>
+		<listener class-name="Tfar.utilities.ExtentReportManager"/>
+	</listeners>
+  	<test name="LoginTests" thread-count="5">
+		<parameter name="os" value="Windows"/>
+		<parameter name="browser" value="Chrome"/>
+    	<classes>
+      		<class name="Tfar.tests.LoginPageTests"/>  		
+    	</classes>
+  	</test>
+  	<test name="ProductPageTests" thread-count="5">
+		<parameter name="os" value="Windows"/>
+		<parameter name="browser" value="Chrome"/>
+    	<classes>
+      		<class name="Tfar.tests.ProductsPageTests"/>
+    	</classes>
+  	</test>
+  	<test name="CartPageTests" thread-count="5">
+		<parameter name="os" value="Windows"/>
+		<parameter name="browser" value="Chrome"/>
+    	<classes>
+      		<class name="Tfar.tests.CartPageTests"/>
+    	</classes>
+  	</test>
+</suite> 

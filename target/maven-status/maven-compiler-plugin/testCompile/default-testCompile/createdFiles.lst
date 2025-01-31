@@ -1,0 +1,7 @@
+Tfar\TestComponents\BaseTest$1.class
+Tfar\tests\LoginPageTests.class
+Tfar\tests\ProductsPageTests.class
+Tfar\utilities\Retry.class
+Tfar\utilities\ExtentReportManager.class
+Tfar\TestComponents\BaseTest.class
+Tfar\tests\CartPageTests.class
