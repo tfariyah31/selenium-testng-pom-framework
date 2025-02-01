@@ -41,7 +41,7 @@ A Selenium TestNg Page Object Model (POM) automation framework for testing Sauce
 
 5.  **Reporting:**
     *   Extent Reports will be generated in the `/reports` directory after test execution.  
-    *   Log files will be generated in generated in `logs/' directory, can be configured as per your `log4j2.xml` configuration.
+    *   Log files will be generated in generated in `logs/` directory, can be configured as per your `log4j2.xml` configuration.
 
 6.  **Running Tests via Maven(Profile-Smoke):**
     *   mvn test -PSmoke
