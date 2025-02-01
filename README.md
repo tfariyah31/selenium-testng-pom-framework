@@ -21,7 +21,7 @@ A Selenium TestNg Page Object Model (POM) automation framework for testing Sauce
 ## Setup and Execution
 
 1.  **Prerequisites:**
-    *   Java Development Kit (JDK) installed.(java version 18.0.2.1)
+    *   Java Development Kit (JDK) version 18.0.2.1 installed.
     *   Maven installed.
     *   A suitable IDE (e.g., IntelliJ IDEA, Eclipse).
     *   Browser drivers for the browsers you want to test (e.g., ChromeDriver for Chrome, geckodriver for Firefox).  
@@ -37,7 +37,7 @@ A Selenium TestNg Page Object Model (POM) automation framework for testing Sauce
     *   **Browser Configuration:** Configure the browser to be used in the test execution in the `src/test/resources/GlobalParameters.properties` configuration files.
 
 4.  **Execution:**
-    *   Run the tests from your IDE using TestNG or Maven: `mvn test`
+    *   Run the tests from your IDE using TestNG or Maven: `mvn clean`  `mvn install` `mvn test`
 
 5.  **Reporting:**
     *   Extent Reports will be generated in the `/reports` directory after test execution.  
