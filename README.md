@@ -1,5 +1,5 @@
 # selenium-testng-pom-framework
-A Selenium TestNg Page Object Model (POM) automation framework for testing SauceDemo. Features includes data-driven testing (JSON), retry logic (IRetryAnalyzer), Log4j2 for logging and Extent Reports for detailed test reporting.
+A Selenium TestNG automation framework using the Page Object Model (POM) for testing SauceDemo, built with Java and Maven. Features includes data-driven testing (JSON), retry logic (IRetryAnalyzer), Log4j2 for logging and Extent Reports for detailed test reporting.
 ## Features
 
 *   **Page Object Model (POM):**  Organizes the test code by representing each page of the application as a separate class. This improves code readability and maintainability.
