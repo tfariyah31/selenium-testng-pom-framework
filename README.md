@@ -17,6 +17,7 @@ A Selenium TestNG automation framework using the Page Object Model (POM) for tes
 *   **Extent Reports:** For generating HTML reports.
 *   **Java:** As the programming language.
 *   **Maven:** For dependency management.
+*   **AI:** Codeium, ChatGPT
 
 ## Setup and Execution
 
