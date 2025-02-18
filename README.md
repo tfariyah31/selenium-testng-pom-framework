@@ -1,6 +1,6 @@
-# selenium-testng-pom-framework
+# 📌Selenium Testng POM Automation Framework
 A Selenium TestNG automation framework using the Page Object Model (POM) for testing SauceDemo, built with Java and Maven. Features includes data-driven testing (JSON), retry logic (IRetryAnalyzer), Log4j2 for logging and Extent Reports for detailed test reporting.
-## Features
+## 🚀Features
 
 *   **Page Object Model (POM):**  Organizes the test code by representing each page of the application as a separate class. This improves code readability and maintainability.
 *   **Data-Driven Testing:** Employs JSON files to store test data, allowing for easy execution with different sets of inputs without modifying the test code.  This facilitates running the same tests with varying data.
@@ -8,7 +8,7 @@ A Selenium TestNG automation framework using the Page Object Model (POM) for tes
 *   **Log4j 2 Logging:** Integrates Log4j 2 for comprehensive logging of test execution. This provides detailed information about the test runs, aiding in debugging and analysis.  Logs are configured to provide different levels of detail (e.g., DEBUG, INFO, ERROR) for various aspects of the test execution.
 *   **Extent Reports:** Generates HTML reports using Extent Reports, providing a clear and visually appealing summary of test results, including pass/fail status, screenshots (on failure), and detailed logs.  This makes it easier to understand test outcomes and identify areas for improvement.
 
-## Technologies Used
+## 🔧Technologies Used
 
 *   **Selenium WebDriver:** For browser automation.
 *   **TestNG:** As the testing framework for running tests, managing test suites, and generating reports.
@@ -19,7 +19,7 @@ A Selenium TestNG automation framework using the Page Object Model (POM) for tes
 *   **Maven:** For dependency management.
 *   **AI:** Codeium, ChatGPT
 
-## Setup and Execution
+##  🛠️Setup and Execution
 
 1.  **Prerequisites:**
     *   Java Development Kit (JDK) version 18.0.2.1 installed.
@@ -47,7 +47,12 @@ A Selenium TestNG automation framework using the Page Object Model (POM) for tes
 6.  **Running Tests via Maven(Profile-Smoke):**
     *   mvn test -PSmoke
 
+## 👨‍💻 Author
+👤 Tasnim Fariyah
+🔗 [Github](https://github.com/tfariyah31)
+🔗 [LinkedIn](https://www.linkedin.com/in/tasnim-fariyah/)
 
+✅ Your Selenium TestNg automation framework with POM is now ready! 🚀
 
 
 
